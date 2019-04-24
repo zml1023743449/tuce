@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>旅行日記</title>
+		<!--引入bootstrap的css文件-->
+		<link rel="icon" href="images/o.png" type="image/png"/>
+		<link rel="apple-touch-icon-precomposed" href="o.png" />
+		<link rel="apple-touch-icon" href="o.png" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bass.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo_text">&nbsp;旅&nbsp;行&nbsp;日&nbsp;記&nbsp;</h1>
+				<nav>
+					<ul class="clearfix">
+						<li><a href="##">首页</a></li>
+						<li><a href="##">关于</a></li>
+						<li><a href="##">日记</a></li>
+						<li><a href="##">相册</a></li>
+						<li><a href="##">联系</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="banner">
+			<div class="container">
+				<div class="jq22-container">
+					<div class="flexslider">
+						<ul class="slides">
+							<li style="background:url(images/img1.png) 50% 0 no-repeat;"></li>
+							<li style="background:url(images/img2.png) 50% 0 no-repeat;"></li>
+							<li style="background:url(images/img3.png) 50% 0 no-repeat;"></li>
+							<li style="background:url(images/img4.png) 50% 0 no-repeat;"></li>
+							<li style="background:url(images/img5.png) 50% 0 no-repeat;"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="photo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<a href="##">
+							<img src="images/c.jpg"/>
+							<span>
+								雪山
+							</span>
+						</a>
+						
+					</div>
+					<div class="col-md-4">
+						<a href="##">
+							<img src="images/b.jpg"/>
+							<span>
+								云海
+							</span>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="##">
+							<img src="images/a.jpg"/>
+							<span>
+								海边
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<img src="images/d.png"/>
+				<p>Copyright &copy; 2005-2016 Personal  Website</p>
+			</div>
+		</footer>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--引入jquery和bootstrap的js文件-->
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.flexslider').flexslider({
+					directionNav:true,
+					pauseOnAction:false,
+					animationSpeed:600,
+					slideshowSpeed:3000,
+				    animation: "fade"
+				});
+			});
+		</script>
+	</body>
+</html>
